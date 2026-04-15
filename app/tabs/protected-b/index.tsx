@@ -3,12 +3,15 @@ import { StyleSheet, Text, View } from "react-native";
 
 const Index = () => {
   return (
-    <View>
-      <Text>protected b page</Text>
+    <View style={styles.container}>
+      <Text style={styles.text}>protected b index</Text>
     </View>
   );
 };
 
 export default Index;
 
-const styles = StyleSheet.create({});
+const styles = StyleSheet.create({
+  container: { marginTop: 50 },
+  text: { fontSize: 30 },
+});
